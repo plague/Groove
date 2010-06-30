@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a58cc2ea-e480-434e-8514-3384748d265f" name="mark.yates@OPP-0351 2010-06-30 15:20:19" runUser="OPP-LINKS\mark.yates" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2b388358-6315-4145-a2b9-4d891e7ea305">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mark.yates_OPP-0351 2010-06-30 15_20_19" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-06-30T15:20:19.6472056+01:00" queuing="2010-06-30T15:20:19.9128357+01:00" start="2010-06-30T15:20:20.1784658+01:00" finish="2010-06-30T15:20:20.5065971+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="d30a25a1-934c-3a35-f9bf-ba0a931e3015">
+      <Execution timeOut="1800000" id="962a7905-1a1d-4460-9b16-1821f56aa68e" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="2e6be5b9-afb9-a2f4-c9b5-db96a794864a">
+      <Execution timeOut="1800000" id="cbc190a4-3a03-48b8-a3af-725049c470b0" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="c0c2f508-55d7-421f-8e2a-d081639bb380">
+      <Execution timeOut="1800000" id="2defb5b0-2f24-4a18-aec6-3c17880f379f" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="7487dc4b-c12f-2e4b-d21b-5728de2badc3">
+      <Execution timeOut="1800000" id="3ec39bed-ed2f-4c72-94e7-0da71f059e80" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="e03aa109-1362-f0ec-fa7a-238f858f50f1">
+      <Execution timeOut="1800000" id="d8e32d4b-016f-418c-b669-e7ca4a70a4f3" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="18c984cd-f5a1-d52e-0995-4c8537694c3f">
+      <Execution timeOut="1800000" id="c7cbb58d-d534-424f-9c8f-0b2533f32402" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="25cabd47-6783-03e7-52d7-a6ad392326f0">
+      <Execution timeOut="1800000" id="32cc857e-a1cc-4242-b980-ac0382841a4e" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="c81e4bac-7473-ca35-971a-c38ab74ac57a">
+      <Execution timeOut="1800000" id="9974d40c-ae0a-47de-b577-6ac00518d439" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="a2ee5929-91ce-631d-0aff-5c7194d2f68c">
+      <Execution timeOut="1800000" id="27978c68-3a1e-4586-8a74-e616cbd78577" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.HomeControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="About" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="665393e1-f065-9deb-0f92-eae33ddac411">
+      <Execution timeOut="1800000" id="78f57191-40fd-4ce3-b825-034b4861c659" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.HomeControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="Index" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="c6719920-8555-224d-9e5f-e1e1046f0f21">
+      <Execution timeOut="1800000" id="c7e95c8a-2376-4de6-aacb-50639e9dca9d" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="f4bad7e5-3ffb-de8c-a0d1-c4d647b7183b">
+      <Execution timeOut="1800000" id="bf328022-c181-4eca-a58d-165ca2958425" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="982c5add-ba78-caf6-6aa7-efc6c02d3521">
+      <Execution timeOut="1800000" id="9ca57601-f166-4d0c-9205-cac787918add" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="9c001ad2-955e-4699-c250-3ab57a5099d3">
+      <Execution timeOut="1800000" id="2b291b57-9785-451f-af11-ddb2217ff812" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="e35d7ded-8085-d69e-547b-47df899ebbfd">
+      <Execution timeOut="1800000" id="6a6a904f-d1e5-44d9-9379-8aeda6d27e69" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="b0e4e3a6-f84e-f614-0e15-0b7b52ee6952">
+      <Execution timeOut="1800000" id="fefa668a-469b-40bd-be1e-328a70fccb99" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\projects\groove\groove.web.tests\bin\debug\groove.web.tests.dll" id="d76e3113-dbf0-96bb-60ab-eec367598678">
+      <Execution timeOut="1800000" id="d76ae6d6-1570-4a41-8f4a-f74d204f80e2" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Web.Tests/bin/Debug/Groove.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Web.Tests.Controllers.AccountControllerTest, Groove.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="982c5add-ba78-caf6-6aa7-efc6c02d3521" executionId="9ca57601-f166-4d0c-9205-cac787918add" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d76e3113-dbf0-96bb-60ab-eec367598678" executionId="d76ae6d6-1570-4a41-8f4a-f74d204f80e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7487dc4b-c12f-2e4b-d21b-5728de2badc3" executionId="3ec39bed-ed2f-4c72-94e7-0da71f059e80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c81e4bac-7473-ca35-971a-c38ab74ac57a" executionId="9974d40c-ae0a-47de-b577-6ac00518d439" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d30a25a1-934c-3a35-f9bf-ba0a931e3015" executionId="962a7905-1a1d-4460-9b16-1821f56aa68e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e35d7ded-8085-d69e-547b-47df899ebbfd" executionId="6a6a904f-d1e5-44d9-9379-8aeda6d27e69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18c984cd-f5a1-d52e-0995-4c8537694c3f" executionId="c7cbb58d-d534-424f-9c8f-0b2533f32402" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e03aa109-1362-f0ec-fa7a-238f858f50f1" executionId="d8e32d4b-016f-418c-b669-e7ca4a70a4f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e6be5b9-afb9-a2f4-c9b5-db96a794864a" executionId="cbc190a4-3a03-48b8-a3af-725049c470b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25cabd47-6783-03e7-52d7-a6ad392326f0" executionId="32cc857e-a1cc-4242-b980-ac0382841a4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6719920-8555-224d-9e5f-e1e1046f0f21" executionId="c7e95c8a-2376-4de6-aacb-50639e9dca9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c001ad2-955e-4699-c250-3ab57a5099d3" executionId="2b291b57-9785-451f-af11-ddb2217ff812" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0c2f508-55d7-421f-8e2a-d081639bb380" executionId="2defb5b0-2f24-4a18-aec6-3c17880f379f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0e4e3a6-f84e-f614-0e15-0b7b52ee6952" executionId="fefa668a-469b-40bd-be1e-328a70fccb99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4bad7e5-3ffb-de8c-a0d1-c4d647b7183b" executionId="bf328022-c181-4eca-a58d-165ca2958425" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2ee5929-91ce-631d-0aff-5c7194d2f68c" executionId="27978c68-3a1e-4586-8a74-e616cbd78577" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="665393e1-f065-9deb-0f92-eae33ddac411" executionId="78f57191-40fd-4ce3-b825-034b4861c659" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9ca57601-f166-4d0c-9205-cac787918add" testId="982c5add-ba78-caf6-6aa7-efc6c02d3521" testName="ChangePassword_Get_ReturnsView" computerName="OPP-0351" duration="00:00:00.0740504" startTime="2010-06-30T15:20:20.1940911+01:00" endTime="2010-06-30T15:20:20.3503441+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ca57601-f166-4d0c-9205-cac787918add">
+    </UnitTestResult>
+    <UnitTestResult executionId="d76ae6d6-1570-4a41-8f4a-f74d204f80e2" testId="d76e3113-dbf0-96bb-60ab-eec367598678" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="OPP-0351" duration="00:00:00.0098213" startTime="2010-06-30T15:20:20.3503441+01:00" endTime="2010-06-30T15:20:20.3659694+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d76ae6d6-1570-4a41-8f4a-f74d204f80e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="3ec39bed-ed2f-4c72-94e7-0da71f059e80" testId="7487dc4b-c12f-2e4b-d21b-5728de2badc3" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="OPP-0351" duration="00:00:00.0037219" startTime="2010-06-30T15:20:20.3659694+01:00" endTime="2010-06-30T15:20:20.3659694+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ec39bed-ed2f-4c72-94e7-0da71f059e80">
+    </UnitTestResult>
+    <UnitTestResult executionId="9974d40c-ae0a-47de-b577-6ac00518d439" testId="c81e4bac-7473-ca35-971a-c38ab74ac57a" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="OPP-0351" duration="00:00:00.0012484" startTime="2010-06-30T15:20:20.3659694+01:00" endTime="2010-06-30T15:20:20.3659694+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9974d40c-ae0a-47de-b577-6ac00518d439">
+    </UnitTestResult>
+    <UnitTestResult executionId="962a7905-1a1d-4460-9b16-1821f56aa68e" testId="d30a25a1-934c-3a35-f9bf-ba0a931e3015" testName="ChangePasswordSuccess_ReturnsView" computerName="OPP-0351" duration="00:00:00.0007855" startTime="2010-06-30T15:20:20.3815947+01:00" endTime="2010-06-30T15:20:20.3815947+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="962a7905-1a1d-4460-9b16-1821f56aa68e">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a6a904f-d1e5-44d9-9379-8aeda6d27e69" testId="e35d7ded-8085-d69e-547b-47df899ebbfd" testName="LogOff_LogsOutAndRedirects" computerName="OPP-0351" duration="00:00:00.0025595" startTime="2010-06-30T15:20:20.3815947+01:00" endTime="2010-06-30T15:20:20.3815947+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a6a904f-d1e5-44d9-9379-8aeda6d27e69">
+    </UnitTestResult>
+    <UnitTestResult executionId="c7cbb58d-d534-424f-9c8f-0b2533f32402" testId="18c984cd-f5a1-d52e-0995-4c8537694c3f" testName="LogOn_Get_ReturnsView" computerName="OPP-0351" duration="00:00:00.0008026" startTime="2010-06-30T15:20:20.3815947+01:00" endTime="2010-06-30T15:20:20.3815947+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7cbb58d-d534-424f-9c8f-0b2533f32402">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8e32d4b-016f-418c-b669-e7ca4a70a4f3" testId="e03aa109-1362-f0ec-fa7a-238f858f50f1" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="OPP-0351" duration="00:00:00.0018776" startTime="2010-06-30T15:20:20.3815947+01:00" endTime="2010-06-30T15:20:20.3815947+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8e32d4b-016f-418c-b669-e7ca4a70a4f3">
+    </UnitTestResult>
+    <UnitTestResult executionId="cbc190a4-3a03-48b8-a3af-725049c470b0" testId="2e6be5b9-afb9-a2f4-c9b5-db96a794864a" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="OPP-0351" duration="00:00:00.0020332" startTime="2010-06-30T15:20:20.3815947+01:00" endTime="2010-06-30T15:20:20.3972200+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbc190a4-3a03-48b8-a3af-725049c470b0">
+    </UnitTestResult>
+    <UnitTestResult executionId="32cc857e-a1cc-4242-b980-ac0382841a4e" testId="25cabd47-6783-03e7-52d7-a6ad392326f0" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="OPP-0351" duration="00:00:00.0004260" startTime="2010-06-30T15:20:20.3972200+01:00" endTime="2010-06-30T15:20:20.3972200+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32cc857e-a1cc-4242-b980-ac0382841a4e">
+    </UnitTestResult>
+    <UnitTestResult executionId="c7e95c8a-2376-4de6-aacb-50639e9dca9d" testId="c6719920-8555-224d-9e5f-e1e1046f0f21" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="OPP-0351" duration="00:00:00.0004925" startTime="2010-06-30T15:20:20.3972200+01:00" endTime="2010-06-30T15:20:20.3972200+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7e95c8a-2376-4de6-aacb-50639e9dca9d">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b291b57-9785-451f-af11-ddb2217ff812" testId="9c001ad2-955e-4699-c250-3ab57a5099d3" testName="Register_Get_ReturnsView" computerName="OPP-0351" duration="00:00:00.0004578" startTime="2010-06-30T15:20:20.3972200+01:00" endTime="2010-06-30T15:20:20.3972200+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b291b57-9785-451f-af11-ddb2217ff812">
+    </UnitTestResult>
+    <UnitTestResult executionId="2defb5b0-2f24-4a18-aec6-3c17880f379f" testId="c0c2f508-55d7-421f-8e2a-d081639bb380" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="OPP-0351" duration="00:00:00.0021170" startTime="2010-06-30T15:20:20.3972200+01:00" endTime="2010-06-30T15:20:20.3972200+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2defb5b0-2f24-4a18-aec6-3c17880f379f">
+    </UnitTestResult>
+    <UnitTestResult executionId="fefa668a-469b-40bd-be1e-328a70fccb99" testId="b0e4e3a6-f84e-f614-0e15-0b7b52ee6952" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="OPP-0351" duration="00:00:00.0021301" startTime="2010-06-30T15:20:20.3972200+01:00" endTime="2010-06-30T15:20:20.3972200+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fefa668a-469b-40bd-be1e-328a70fccb99">
+    </UnitTestResult>
+    <UnitTestResult executionId="bf328022-c181-4eca-a58d-165ca2958425" testId="f4bad7e5-3ffb-de8c-a0d1-c4d647b7183b" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="OPP-0351" duration="00:00:00.0012976" startTime="2010-06-30T15:20:20.3972200+01:00" endTime="2010-06-30T15:20:20.4128453+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf328022-c181-4eca-a58d-165ca2958425">
+    </UnitTestResult>
+    <UnitTestResult executionId="27978c68-3a1e-4586-8a74-e616cbd78577" testId="a2ee5929-91ce-631d-0aff-5c7194d2f68c" testName="About" computerName="OPP-0351" duration="00:00:00.0006760" startTime="2010-06-30T15:20:20.4128453+01:00" endTime="2010-06-30T15:20:20.4128453+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27978c68-3a1e-4586-8a74-e616cbd78577">
+    </UnitTestResult>
+    <UnitTestResult executionId="78f57191-40fd-4ce3-b825-034b4861c659" testId="665393e1-f065-9deb-0f92-eae33ddac411" testName="Index" computerName="OPP-0351" duration="00:00:00.0003405" startTime="2010-06-30T15:20:20.4128453+01:00" endTime="2010-06-30T15:20:20.4128453+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78f57191-40fd-4ce3-b825-034b4861c659">
+    </UnitTestResult>
+  </Results>
+</TestRun>

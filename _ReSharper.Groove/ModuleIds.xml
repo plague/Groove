@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="41E7857D-FBCD-4782-8623-B2087644C0AF" ModuleId="Groove.Domain" />
+  <Module PersistentId="15F5C0A8-8AF2-4C74-9B7A-1021ABEA79A0" ModuleId="Groove.Web" />
+  <Module PersistentId="4606263C-442F-4038-9E43-795C6D6790F1" ModuleId="Groove.Domain.Tests" />
+  <Module PersistentId="F65F6FB8-1C91-4213-839A-7AC1A0B5870D" ModuleId="Groove.Web.Tests" />
+</Modules>

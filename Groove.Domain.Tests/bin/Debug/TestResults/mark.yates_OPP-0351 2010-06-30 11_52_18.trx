@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6caa1662-9811-4feb-af97-e3f1c47d385e" name="mark.yates@OPP-0351 2010-06-30 11:52:18" runUser="OPP-LINKS\mark.yates" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2b388358-6315-4145-a2b9-4d891e7ea305">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mark.yates_OPP-0351 2010-06-30 11_52_18" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-06-30T11:52:18.6471164+01:00" queuing="2010-06-30T11:52:19.3815055+01:00" start="2010-06-30T11:52:20.0690187+01:00" finish="2010-06-30T11:52:20.5377777+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DomainEntity_With_Non_Default_Identifier_Is_Not_Transient" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="c0d094d6-c4be-3efa-5c36-6df1d3e85b64">
+      <Execution timeOut="1800000" id="4e863ea5-daaa-4a86-9a13-64eb90664f47" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntity_With_Non_Default_Identifier_Is_Not_Transient" />
+    </UnitTest>
+    <UnitTest name="DomainEntity_With_Default_Value_Identifier_Is_Transient" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="d809f0ea-5025-ef8f-d0d6-d1e4843c4e76">
+      <Execution timeOut="1800000" id="5d0f4d88-cfd5-4b97-bf6b-e96c5f3c16ff" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntity_With_Default_Value_Identifier_Is_Transient" />
+    </UnitTest>
+    <UnitTest name="DomainEntity_Is_Initialised_With_Expected_Values" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="bb1dc70f-d7e6-a67c-20d4-985035c8616c">
+      <Execution timeOut="1800000" id="a10b6472-cff4-4785-8e4d-b481d3ed90d0" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntity_Is_Initialised_With_Expected_Values" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bb1dc70f-d7e6-a67c-20d4-985035c8616c" executionId="a10b6472-cff4-4785-8e4d-b481d3ed90d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d809f0ea-5025-ef8f-d0d6-d1e4843c4e76" executionId="5d0f4d88-cfd5-4b97-bf6b-e96c5f3c16ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0d094d6-c4be-3efa-5c36-6df1d3e85b64" executionId="4e863ea5-daaa-4a86-9a13-64eb90664f47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a10b6472-cff4-4785-8e4d-b481d3ed90d0" testId="bb1dc70f-d7e6-a67c-20d4-985035c8616c" testName="DomainEntity_Is_Initialised_With_Expected_Values" computerName="OPP-0351" duration="00:00:00.0249405" startTime="2010-06-30T11:52:20.2721476+01:00" endTime="2010-06-30T11:52:20.4127753+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a10b6472-cff4-4785-8e4d-b481d3ed90d0">
+    </UnitTestResult>
+    <UnitTestResult executionId="5d0f4d88-cfd5-4b97-bf6b-e96c5f3c16ff" testId="d809f0ea-5025-ef8f-d0d6-d1e4843c4e76" testName="DomainEntity_With_Default_Value_Identifier_Is_Transient" computerName="OPP-0351" duration="00:00:00.0014976" startTime="2010-06-30T11:52:20.4127753+01:00" endTime="2010-06-30T11:52:20.4127753+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d0f4d88-cfd5-4b97-bf6b-e96c5f3c16ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="4e863ea5-daaa-4a86-9a13-64eb90664f47" testId="c0d094d6-c4be-3efa-5c36-6df1d3e85b64" testName="DomainEntity_With_Non_Default_Identifier_Is_Not_Transient" computerName="OPP-0351" duration="00:00:00.0006922" startTime="2010-06-30T11:52:20.4127753+01:00" endTime="2010-06-30T11:52:20.4284006+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e863ea5-daaa-4a86-9a13-64eb90664f47">
+    </UnitTestResult>
+  </Results>
+</TestRun>

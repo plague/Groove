@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4fdfa7e8-960f-4c10-91ba-05634362a306" name="mark.yates@OPP-0351 2010-06-30 14:47:52" runUser="OPP-LINKS\mark.yates" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2b388358-6315-4145-a2b9-4d891e7ea305">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mark.yates_OPP-0351 2010-06-30 14_47_52" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-06-30T14:47:52.0004365+01:00" queuing="2010-06-30T14:47:52.2816919+01:00" start="2010-06-30T14:47:52.5004461+01:00" finish="2010-06-30T14:47:52.7660762+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_Reference_Value_Object_Is_Null" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="b1664a3c-05f9-99ff-6611-d0f3632a83a8">
+      <Execution timeOut="1800000" id="64e93462-5105-4839-9b0f-9ac4786f0e98" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityIdentityComparerTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_Reference_Value_Object_Is_Null" />
+    </UnitTest>
+    <UnitTest name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_Integer_Value_Is_Default" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="4f210b58-f277-63b4-91ab-9f7e17101b29">
+      <Execution timeOut="1800000" id="ba58f144-873a-427b-a078-ac8ddd4f87e4" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityIdentityComparerTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_Integer_Value_Is_Default" />
+    </UnitTest>
+    <UnitTest name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_String_Value_Is_Empty_String" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="3b2e9292-cd97-5895-4bb8-096cd331606a">
+      <Execution timeOut="1800000" id="a22a178f-e918-4ec5-bf81-c26eeb7a9bab" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityIdentityComparerTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_String_Value_Is_Empty_String" />
+    </UnitTest>
+    <UnitTest name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_False_When_Integer_Value_Is_Not_Default" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="42f1cf68-1334-5f49-a114-75e4a309ef68">
+      <Execution timeOut="1800000" id="f5a0f2de-c984-4c0f-9604-21e1f67bfc61" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityIdentityComparerTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_False_When_Integer_Value_Is_Not_Default" />
+    </UnitTest>
+    <UnitTest name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_False_When_String_Value_Is_Not_Null_Or_Empty_String" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="5c28cca6-f1cd-f0a9-a528-a6f8a0fee46e">
+      <Execution timeOut="1800000" id="4f66f260-9aa2-4d61-b147-33ebd031c349" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityIdentityComparerTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_False_When_String_Value_Is_Not_Null_Or_Empty_String" />
+    </UnitTest>
+    <UnitTest name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_String_Value_Is_Null" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="b4d8b18d-659f-3912-1da0-622344d2c253">
+      <Execution timeOut="1800000" id="efb76661-7471-40c3-af97-289f9737f5af" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityIdentityComparerTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_String_Value_Is_Null" />
+    </UnitTest>
+    <UnitTest name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_False_When_Reference_Value_Object_Is_Not_Null" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="afaba0e4-a348-50e3-ea40-baf2a77caf50">
+      <Execution timeOut="1800000" id="9958640d-c2ad-49cb-a9c2-07c849f7f5d3" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityIdentityComparerTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntityIdentityComparer_IsNullOrDefault_Returns_False_When_Reference_Value_Object_Is_Not_Null" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="42f1cf68-1334-5f49-a114-75e4a309ef68" executionId="f5a0f2de-c984-4c0f-9604-21e1f67bfc61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afaba0e4-a348-50e3-ea40-baf2a77caf50" executionId="9958640d-c2ad-49cb-a9c2-07c849f7f5d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c28cca6-f1cd-f0a9-a528-a6f8a0fee46e" executionId="4f66f260-9aa2-4d61-b147-33ebd031c349" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f210b58-f277-63b4-91ab-9f7e17101b29" executionId="ba58f144-873a-427b-a078-ac8ddd4f87e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1664a3c-05f9-99ff-6611-d0f3632a83a8" executionId="64e93462-5105-4839-9b0f-9ac4786f0e98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b2e9292-cd97-5895-4bb8-096cd331606a" executionId="a22a178f-e918-4ec5-bf81-c26eeb7a9bab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4d8b18d-659f-3912-1da0-622344d2c253" executionId="efb76661-7471-40c3-af97-289f9737f5af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f5a0f2de-c984-4c0f-9604-21e1f67bfc61" testId="42f1cf68-1334-5f49-a114-75e4a309ef68" testName="DomainEntityIdentityComparer_IsNullOrDefault_Returns_False_When_Integer_Value_Is_Not_Default" computerName="OPP-0351" duration="00:00:00.0190923" startTime="2010-06-30T14:47:52.5629473+01:00" endTime="2010-06-30T14:47:52.6566991+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5a0f2de-c984-4c0f-9604-21e1f67bfc61">
+    </UnitTestResult>
+    <UnitTestResult executionId="9958640d-c2ad-49cb-a9c2-07c849f7f5d3" testId="afaba0e4-a348-50e3-ea40-baf2a77caf50" testName="DomainEntityIdentityComparer_IsNullOrDefault_Returns_False_When_Reference_Value_Object_Is_Not_Null" computerName="OPP-0351" duration="00:00:00.0067086" startTime="2010-06-30T14:47:52.6566991+01:00" endTime="2010-06-30T14:47:52.6566991+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9958640d-c2ad-49cb-a9c2-07c849f7f5d3">
+    </UnitTestResult>
+    <UnitTestResult executionId="4f66f260-9aa2-4d61-b147-33ebd031c349" testId="5c28cca6-f1cd-f0a9-a528-a6f8a0fee46e" testName="DomainEntityIdentityComparer_IsNullOrDefault_Returns_False_When_String_Value_Is_Not_Null_Or_Empty_String" computerName="OPP-0351" duration="00:00:00.0028506" startTime="2010-06-30T14:47:52.6566991+01:00" endTime="2010-06-30T14:47:52.6723244+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f66f260-9aa2-4d61-b147-33ebd031c349">
+    </UnitTestResult>
+    <UnitTestResult executionId="ba58f144-873a-427b-a078-ac8ddd4f87e4" testId="4f210b58-f277-63b4-91ab-9f7e17101b29" testName="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_Integer_Value_Is_Default" computerName="OPP-0351" duration="00:00:00.0008542" startTime="2010-06-30T14:47:52.6723244+01:00" endTime="2010-06-30T14:47:52.6723244+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba58f144-873a-427b-a078-ac8ddd4f87e4">
+    </UnitTestResult>
+    <UnitTestResult executionId="64e93462-5105-4839-9b0f-9ac4786f0e98" testId="b1664a3c-05f9-99ff-6611-d0f3632a83a8" testName="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_Reference_Value_Object_Is_Null" computerName="OPP-0351" duration="00:00:00.0027743" startTime="2010-06-30T14:47:52.6723244+01:00" endTime="2010-06-30T14:47:52.6723244+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64e93462-5105-4839-9b0f-9ac4786f0e98">
+    </UnitTestResult>
+    <UnitTestResult executionId="a22a178f-e918-4ec5-bf81-c26eeb7a9bab" testId="3b2e9292-cd97-5895-4bb8-096cd331606a" testName="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_String_Value_Is_Empty_String" computerName="OPP-0351" duration="00:00:00.0007992" startTime="2010-06-30T14:47:52.6723244+01:00" endTime="2010-06-30T14:47:52.6723244+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a22a178f-e918-4ec5-bf81-c26eeb7a9bab">
+    </UnitTestResult>
+    <UnitTestResult executionId="efb76661-7471-40c3-af97-289f9737f5af" testId="b4d8b18d-659f-3912-1da0-622344d2c253" testName="DomainEntityIdentityComparer_IsNullOrDefault_Returns_True_When_String_Value_Is_Null" computerName="OPP-0351" duration="00:00:00.0008012" startTime="2010-06-30T14:47:52.6723244+01:00" endTime="2010-06-30T14:47:52.6879497+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efb76661-7471-40c3-af97-289f9737f5af">
+    </UnitTestResult>
+  </Results>
+</TestRun>

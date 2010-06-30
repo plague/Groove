@@ -1,0 +1,8 @@
+C:\Projects\Groove\Groove.Web.Tests\bin\Debug\Groove.Web.Tests.dll.config
+C:\Projects\Groove\Groove.Web.Tests\bin\Debug\Groove.Web.Tests.dll
+C:\Projects\Groove\Groove.Web.Tests\bin\Debug\Groove.Web.Tests.pdb
+C:\Projects\Groove\Groove.Web.Tests\bin\Debug\Groove.Web.dll
+C:\Projects\Groove\Groove.Web.Tests\bin\Debug\Groove.Web.pdb
+C:\Projects\Groove\Groove.Web.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Groove\Groove.Web.Tests\obj\Debug\Groove.Web.Tests.dll
+C:\Projects\Groove\Groove.Web.Tests\obj\Debug\Groove.Web.Tests.pdb

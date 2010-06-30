@@ -1,0 +1,150 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Attributes/f:DomainSignatureAttribute.cs" caret="0" fromTop="0" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntityIdentityComparer.cs" caret="240" fromTop="6" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:UserGroup.cs" caret="433" fromTop="19" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="642" fromTop="14" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntity.cs" caret="2062" fromTop="16" />
+      <File id="4606263C-442F-4038-9E43-795C6D6790F1/d:Entities/f:DomainEntityTests.cs" caret="1514" fromTop="65" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntity.cs" caret="10316" fromTop="8" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntity.cs" caret="1518" fromTop="12" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntity.cs" caret="8429" fromTop="31" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntityIdentityComparer.cs" caret="164" fromTop="4" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntityIdentityComparer.cs" caret="582" fromTop="14" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntityIdentityComparer.cs" caret="357" fromTop="10" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:UserGroup.cs" caret="431" fromTop="18" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:UserGroup.cs" caret="1421" fromTop="32" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:UserGroup.cs" caret="913" fromTop="31" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:UserGroup.cs" caret="617" fromTop="25" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="520" fromTop="24" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntity.cs" caret="1782" fromTop="20" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntity.cs" caret="4388" fromTop="26" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntity.cs" caret="6209" fromTop="48" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntity.cs" caret="8429" fromTop="25" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntity.cs" caret="10082" fromTop="32" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntity.cs" caret="11832" fromTop="35" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:DomainEntity.cs" caret="8836" fromTop="23" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="48" fromTop="0" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="764" fromTop="18" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="1843" fromTop="40" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="1849" fromTop="35" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="1449" fromTop="35" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="1291" fromTop="25" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="1123" fromTop="15" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="1007" fromTop="9" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="412" fromTop="8" />
+      <File id="41E7857D-FBCD-4782-8623-B2087644C0AF/d:Entities/f:User.cs" caret="2645" fromTop="45" />
+      <File id="4606263C-442F-4038-9E43-795C6D6790F1/d:Entities/f:DomainEntityTests.cs" caret="0" fromTop="0" />
+      <File id="4606263C-442F-4038-9E43-795C6D6790F1/d:Entities/f:DomainEntityTests.cs" caret="1514" fromTop="65" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>c:\Program Files\NUnit 2.5.3\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="private" priority="7" />
+      <Item value="byte" priority="0" />
+      <Item value="null" priority="4" />
+      <Item value="return" priority="8" />
+      <Item value="_rowTimestamp" priority="1" />
+      <Item value="value" priority="4" />
+      <Item value="T`0" priority="4" />
+      <Item value="default" priority="1" />
+      <Item value="_id" priority="2" />
+      <Item value="EnvironmentVariableTarget`0" priority="0" />
+      <Item value="SignaturePropertyChanged`0" priority="0" />
+      <Item value="RecalculateHascode" priority="0" />
+      <Item value="true" priority="1" />
+      <Item value="string" priority="5" />
+      <Item value="var" priority="5" />
+      <Item value="GetSignatureProperties`0" priority="0" />
+      <Item value="foreach" priority="3" />
+      <Item value="in" priority="2" />
+      <Item value="signatureProperties" priority="3" />
+      <Item value="property" priority="3" />
+      <Item value="new" priority="1" />
+      <Item value="StringBuilder`0" priority="0" />
+      <Item value="sb" priority="2" />
+      <Item value="if" priority="6" />
+      <Item value="public" priority="1" />
+      <Item value="static" priority="1" />
+      <Item value="void" priority="1" />
+      <Item value="this" priority="1" />
+      <Item value="DomainEntityIdentityComparer`0" priority="0" />
+      <Item value="_cachedHashcode" priority="0" />
+      <Item value="Domain" priority="0" />
+      <Item value="_signaturePropertiesDictionary" priority="0" />
+      <Item value="ThreadStatic" priority="0" />
+      <Item value="_cachedSignaturePropertiesString" priority="2" />
+      <Item value="IDictionary" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="false" priority="1" />
+      <Item value="HasChanged`0" priority="1" />
+      <Item value="_signatureValuesCache" priority="2" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="PropertyInfo`0" priority="0" />
+      <Item value="Dictionary&lt;string,string&gt;" priority="0" />
+      <Item value="signatureProperty" priority="2" />
+      <Item value="cachedValue" priority="0" />
+      <Item value="DomainSignature" priority="0" />
+      <Item value="virtual" priority="0" />
+      <Item value="String`0" priority="0" />
+      <Item value="FriendlyName" priority="1" />
+      <Item value="username" priority="1" />
+      <Item value="Username" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="FullName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="Name" priority="3" />
+      <Item value="GetValue`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="AppendFormat`0" priority="0" />
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Groove.Domain.Entities.DomainEntityIdentityComparer">
+      <Item value="IsNullOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:T">
+      <Item value="IsNullOrDefault`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IDictionary`2">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

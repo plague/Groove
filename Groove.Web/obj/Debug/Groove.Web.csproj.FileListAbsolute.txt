@@ -1,0 +1,5 @@
+C:\Projects\Groove\Groove.Web\bin\Groove.Web.dll
+C:\Projects\Groove\Groove.Web\bin\Groove.Web.pdb
+C:\Projects\Groove\Groove.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Groove\Groove.Web\obj\Debug\Groove.Web.dll
+C:\Projects\Groove\Groove.Web\obj\Debug\Groove.Web.pdb

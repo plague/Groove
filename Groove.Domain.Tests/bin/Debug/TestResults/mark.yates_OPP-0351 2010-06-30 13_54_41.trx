@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="79119e84-01a4-46fb-8976-966963db7cc5" name="mark.yates@OPP-0351 2010-06-30 13:54:41" runUser="OPP-LINKS\mark.yates" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2b388358-6315-4145-a2b9-4d891e7ea305">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mark.yates_OPP-0351 2010-06-30 13_54_41" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-06-30T13:54:41.3141765+01:00" queuing="2010-06-30T13:54:41.6110572+01:00" start="2010-06-30T13:54:41.8454367+01:00" finish="2010-06-30T13:54:42.1579427+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="19" executed="19" passed="19" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DomainEntity_Has_Expected_Business_Signature_Properties" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="0a9e09dd-eac6-0095-add5-f1bbcdef9a2a">
+      <Execution timeOut="1800000" id="4648d10e-e025-40b8-9879-d9388a4e56bd" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntity_Has_Expected_Business_Signature_Properties" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Are_Equal_If_They_Are_Not_Transient_And_Have_The_Same_Identifier" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="bcec9410-4c5e-1846-6f3c-c94a1006e7d5">
+      <Execution timeOut="1800000" id="1141ee33-7adc-48df-8917-8145a2e88635" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Are_Equal_If_They_Are_Not_Transient_And_Have_The_Same_Identifier" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Do_Not_Have_The_Same_Hashcode_If_They_Are_Transient_And_Have_Different_Business_Signatures" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="a805cd9f-82c4-624e-baa8-7c5d0e09d109">
+      <Execution timeOut="1800000" id="5005ff6c-bb6a-4dc0-a396-ddffa70fc514" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Do_Not_Have_The_Same_Hashcode_If_They_Are_Transient_And_Have_Different_Business_Signatures" />
+    </UnitTest>
+    <UnitTest name="DomainEntity_With_Default_Value_Identifier_Is_Transient" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="d809f0ea-5025-ef8f-d0d6-d1e4843c4e76">
+      <Execution timeOut="1800000" id="c0c72e90-7d97-4d16-bdc2-4855c5ab1df6" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntity_With_Default_Value_Identifier_Is_Transient" />
+    </UnitTest>
+    <UnitTest name="DomainEntity_Business_Signature_Does_Not_Change_When_Non_Signature_Property_Values_Change" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="1920a1d9-6477-aad3-7eab-201430ae59ce">
+      <Execution timeOut="1800000" id="85571b7a-09c8-4272-bedb-6d3855f61a7d" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntity_Business_Signature_Does_Not_Change_When_Non_Signature_Property_Values_Change" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Do_Not_Have_The_Same_Hashcode_If_They_Are_Not_Transient_And_Have_Different_Identifiers" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="1a82b24e-27a4-4c87-67bc-d8e85d3c511d">
+      <Execution timeOut="1800000" id="d0743113-6c8b-4fbb-b7f6-2ed25dd20f69" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Do_Not_Have_The_Same_Hashcode_If_They_Are_Not_Transient_And_Have_Different_Identifiers" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Are_Not_Equal_If_They_Are_Not_Of_The_Same_Type_And_Transient" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="5fc1b7c1-0c23-4851-a1af-618081364146">
+      <Execution timeOut="1800000" id="3fb56e2d-285e-40de-80fd-dd96d4fede1c" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Are_Not_Equal_If_They_Are_Not_Of_The_Same_Type_And_Transient" />
+    </UnitTest>
+    <UnitTest name="DomainEntity_Business_Signature_Changes_When_Signature_Property_Values_Change" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="af2683a9-3214-b8ba-a000-9e5ed7aeaa58">
+      <Execution timeOut="1800000" id="6e5b57a9-c595-4b8d-8957-bf7987e69c9d" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntity_Business_Signature_Changes_When_Signature_Property_Values_Change" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Do_Not_Have_The_Same_Hascode_If_They_Are_Not_Of_The_Same_Type_And_Transient" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="d99bb741-bc79-c885-6784-0d8b8ce84b84">
+      <Execution timeOut="1800000" id="06895b87-f3c3-4b41-befc-3acf65873d0e" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Do_Not_Have_The_Same_Hascode_If_They_Are_Not_Of_The_Same_Type_And_Transient" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Have_The_Same_Hashcode_If_They_Are_Transient_And_Have_The_Same_Business_Signature" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="0694b641-f0ee-240f-009b-db7e4c15e7cf">
+      <Execution timeOut="1800000" id="a0f1266c-2c8a-4efd-b2b7-4eeab8eb18bb" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Have_The_Same_Hashcode_If_They_Are_Transient_And_Have_The_Same_Business_Signature" />
+    </UnitTest>
+    <UnitTest name="DomainEntity_Is_Initialised_With_Expected_Values" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="bb1dc70f-d7e6-a67c-20d4-985035c8616c">
+      <Execution timeOut="1800000" id="6cdfa6ec-cfc1-4984-b8ac-4966e9272cc0" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntity_Is_Initialised_With_Expected_Values" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Do_Not_Have_The_Same_Hascode_If_They_Are_Not_Of_The_Same_Type_Even_With_The_Same_Identifier" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="18e72f22-afeb-7b66-938c-ae805a2e69c5">
+      <Execution timeOut="1800000" id="5e57c0c5-b5dd-4253-bc14-2fcbb5e41e09" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Do_Not_Have_The_Same_Hascode_If_They_Are_Not_Of_The_Same_Type_Even_With_The_Same_Identifier" />
+    </UnitTest>
+    <UnitTest name="DomainEntity_With_Non_Default_Identifier_Is_Not_Transient" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="c0d094d6-c4be-3efa-5c36-6df1d3e85b64">
+      <Execution timeOut="1800000" id="517f340e-ab7b-44bd-91e0-91d552bc9c93" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntity_With_Non_Default_Identifier_Is_Not_Transient" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Are_Not_Equal_If_They_Are_Not_Of_The_Same_Type_Even_With_The_Same_Identifier" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="bdbb3207-6d8f-d884-db26-29cd788cb39c">
+      <Execution timeOut="1800000" id="c0ccde90-9754-4fdc-b6df-0c8cdc866e03" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Are_Not_Equal_If_They_Are_Not_Of_The_Same_Type_Even_With_The_Same_Identifier" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Have_The_Same_Hashcode_If_They_Are_Not_Transient_And_Have_The_Same_Identifier" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="067ca797-5077-a8bc-338c-8aeb6d44a0a4">
+      <Execution timeOut="1800000" id="23806706-f3b4-4d81-b06e-02f23eee33e2" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Have_The_Same_Hashcode_If_They_Are_Not_Transient_And_Have_The_Same_Identifier" />
+    </UnitTest>
+    <UnitTest name="DomainEntity_Has_Expected_Business_Signature" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="25b2840f-bb52-8179-e1cb-40b7d374cf61">
+      <Execution timeOut="1800000" id="d7b2fdaf-8efa-49d2-b3a5-45b4f6da0a0e" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntity_Has_Expected_Business_Signature" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Are_Equal_If_They_Are_Transient_And_Have_The_Same_Business_Signature" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="77d05d12-7b29-f90d-62ca-e1cc1a7e8213">
+      <Execution timeOut="1800000" id="c7cd05f5-e029-40c8-a788-c4afc9924a6f" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Are_Equal_If_They_Are_Transient_And_Have_The_Same_Business_Signature" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Are_Not_Equal_If_They_Are_Not_Transient_And_Have_Different_Identifiers" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="42b0c996-e6f9-d24f-102e-95ed93c426f4">
+      <Execution timeOut="1800000" id="9b8083b2-0636-4487-b71e-4b2a790ffbc6" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Are_Not_Equal_If_They_Are_Not_Transient_And_Have_Different_Identifiers" />
+    </UnitTest>
+    <UnitTest name="DomainEntities_Are_Not_Equal_If_They_Are_Transient_And_Have_Different_Business_Signatures" storage="c:\projects\groove\groove.domain.tests\bin\debug\groove.domain.tests.dll" id="c2b1b347-cbd5-0f43-63fc-8f21d9818e51">
+      <Execution timeOut="1800000" id="fb913c96-7046-4c4a-bd66-0a5259beae6a" />
+      <TestMethod codeBase="C:/Projects/Groove/Groove.Domain.Tests/bin/Debug/Groove.Domain.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Groove.Domain.Tests.Entities.DomainEntityTests, Groove.Domain.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c3b9e58c04c63546" name="DomainEntities_Are_Not_Equal_If_They_Are_Transient_And_Have_Different_Business_Signatures" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bcec9410-4c5e-1846-6f3c-c94a1006e7d5" executionId="1141ee33-7adc-48df-8917-8145a2e88635" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77d05d12-7b29-f90d-62ca-e1cc1a7e8213" executionId="c7cd05f5-e029-40c8-a788-c4afc9924a6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fc1b7c1-0c23-4851-a1af-618081364146" executionId="3fb56e2d-285e-40de-80fd-dd96d4fede1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bdbb3207-6d8f-d884-db26-29cd788cb39c" executionId="c0ccde90-9754-4fdc-b6df-0c8cdc866e03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42b0c996-e6f9-d24f-102e-95ed93c426f4" executionId="9b8083b2-0636-4487-b71e-4b2a790ffbc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2b1b347-cbd5-0f43-63fc-8f21d9818e51" executionId="fb913c96-7046-4c4a-bd66-0a5259beae6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d99bb741-bc79-c885-6784-0d8b8ce84b84" executionId="06895b87-f3c3-4b41-befc-3acf65873d0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18e72f22-afeb-7b66-938c-ae805a2e69c5" executionId="5e57c0c5-b5dd-4253-bc14-2fcbb5e41e09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a82b24e-27a4-4c87-67bc-d8e85d3c511d" executionId="d0743113-6c8b-4fbb-b7f6-2ed25dd20f69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a805cd9f-82c4-624e-baa8-7c5d0e09d109" executionId="5005ff6c-bb6a-4dc0-a396-ddffa70fc514" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="067ca797-5077-a8bc-338c-8aeb6d44a0a4" executionId="23806706-f3b4-4d81-b06e-02f23eee33e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0694b641-f0ee-240f-009b-db7e4c15e7cf" executionId="a0f1266c-2c8a-4efd-b2b7-4eeab8eb18bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af2683a9-3214-b8ba-a000-9e5ed7aeaa58" executionId="6e5b57a9-c595-4b8d-8957-bf7987e69c9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1920a1d9-6477-aad3-7eab-201430ae59ce" executionId="85571b7a-09c8-4272-bedb-6d3855f61a7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25b2840f-bb52-8179-e1cb-40b7d374cf61" executionId="d7b2fdaf-8efa-49d2-b3a5-45b4f6da0a0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a9e09dd-eac6-0095-add5-f1bbcdef9a2a" executionId="4648d10e-e025-40b8-9879-d9388a4e56bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb1dc70f-d7e6-a67c-20d4-985035c8616c" executionId="6cdfa6ec-cfc1-4984-b8ac-4966e9272cc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d809f0ea-5025-ef8f-d0d6-d1e4843c4e76" executionId="c0c72e90-7d97-4d16-bdc2-4855c5ab1df6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0d094d6-c4be-3efa-5c36-6df1d3e85b64" executionId="517f340e-ab7b-44bd-91e0-91d552bc9c93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1141ee33-7adc-48df-8917-8145a2e88635" testId="bcec9410-4c5e-1846-6f3c-c94a1006e7d5" testName="DomainEntities_Are_Equal_If_They_Are_Not_Transient_And_Have_The_Same_Identifier" computerName="OPP-0351" duration="00:00:00.0209509" startTime="2010-06-30T13:54:41.8923126+01:00" endTime="2010-06-30T13:54:41.9860644+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1141ee33-7adc-48df-8917-8145a2e88635">
+    </UnitTestResult>
+    <UnitTestResult executionId="c7cd05f5-e029-40c8-a788-c4afc9924a6f" testId="77d05d12-7b29-f90d-62ca-e1cc1a7e8213" testName="DomainEntities_Are_Equal_If_They_Are_Transient_And_Have_The_Same_Business_Signature" computerName="OPP-0351" duration="00:00:00.0334603" startTime="2010-06-30T13:54:41.9860644+01:00" endTime="2010-06-30T13:54:42.0329403+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7cd05f5-e029-40c8-a788-c4afc9924a6f">
+    </UnitTestResult>
+    <UnitTestResult executionId="3fb56e2d-285e-40de-80fd-dd96d4fede1c" testId="5fc1b7c1-0c23-4851-a1af-618081364146" testName="DomainEntities_Are_Not_Equal_If_They_Are_Not_Of_The_Same_Type_And_Transient" computerName="OPP-0351" duration="00:00:00.0016692" startTime="2010-06-30T13:54:42.0329403+01:00" endTime="2010-06-30T13:54:42.0329403+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3fb56e2d-285e-40de-80fd-dd96d4fede1c">
+    </UnitTestResult>
+    <UnitTestResult executionId="c0ccde90-9754-4fdc-b6df-0c8cdc866e03" testId="bdbb3207-6d8f-d884-db26-29cd788cb39c" testName="DomainEntities_Are_Not_Equal_If_They_Are_Not_Of_The_Same_Type_Even_With_The_Same_Identifier" computerName="OPP-0351" duration="00:00:00.0012093" startTime="2010-06-30T13:54:42.0329403+01:00" endTime="2010-06-30T13:54:42.0329403+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0ccde90-9754-4fdc-b6df-0c8cdc866e03">
+    </UnitTestResult>
+    <UnitTestResult executionId="9b8083b2-0636-4487-b71e-4b2a790ffbc6" testId="42b0c996-e6f9-d24f-102e-95ed93c426f4" testName="DomainEntities_Are_Not_Equal_If_They_Are_Not_Transient_And_Have_Different_Identifiers" computerName="OPP-0351" duration="00:00:00.0003927" startTime="2010-06-30T13:54:42.0329403+01:00" endTime="2010-06-30T13:54:42.0329403+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b8083b2-0636-4487-b71e-4b2a790ffbc6">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb913c96-7046-4c4a-bd66-0a5259beae6a" testId="c2b1b347-cbd5-0f43-63fc-8f21d9818e51" testName="DomainEntities_Are_Not_Equal_If_They_Are_Transient_And_Have_Different_Business_Signatures" computerName="OPP-0351" duration="00:00:00.0018887" startTime="2010-06-30T13:54:42.0485656+01:00" endTime="2010-06-30T13:54:42.0485656+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb913c96-7046-4c4a-bd66-0a5259beae6a">
+    </UnitTestResult>
+    <UnitTestResult executionId="06895b87-f3c3-4b41-befc-3acf65873d0e" testId="d99bb741-bc79-c885-6784-0d8b8ce84b84" testName="DomainEntities_Do_Not_Have_The_Same_Hascode_If_They_Are_Not_Of_The_Same_Type_And_Transient" computerName="OPP-0351" duration="00:00:00.0056032" startTime="2010-06-30T13:54:42.0485656+01:00" endTime="2010-06-30T13:54:42.0485656+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06895b87-f3c3-4b41-befc-3acf65873d0e">
+    </UnitTestResult>
+    <UnitTestResult executionId="5e57c0c5-b5dd-4253-bc14-2fcbb5e41e09" testId="18e72f22-afeb-7b66-938c-ae805a2e69c5" testName="DomainEntities_Do_Not_Have_The_Same_Hascode_If_They_Are_Not_Of_The_Same_Type_Even_With_The_Same_Identifier" computerName="OPP-0351" duration="00:00:00.0011666" startTime="2010-06-30T13:54:42.0485656+01:00" endTime="2010-06-30T13:54:42.0485656+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e57c0c5-b5dd-4253-bc14-2fcbb5e41e09">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0743113-6c8b-4fbb-b7f6-2ed25dd20f69" testId="1a82b24e-27a4-4c87-67bc-d8e85d3c511d" testName="DomainEntities_Do_Not_Have_The_Same_Hashcode_If_They_Are_Not_Transient_And_Have_Different_Identifiers" computerName="OPP-0351" duration="00:00:00.0005824" startTime="2010-06-30T13:54:42.0485656+01:00" endTime="2010-06-30T13:54:42.0641909+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0743113-6c8b-4fbb-b7f6-2ed25dd20f69">
+    </UnitTestResult>
+    <UnitTestResult executionId="5005ff6c-bb6a-4dc0-a396-ddffa70fc514" testId="a805cd9f-82c4-624e-baa8-7c5d0e09d109" testName="DomainEntities_Do_Not_Have_The_Same_Hashcode_If_They_Are_Transient_And_Have_Different_Business_Signatures" computerName="OPP-0351" duration="00:00:00.0007411" startTime="2010-06-30T13:54:42.0641909+01:00" endTime="2010-06-30T13:54:42.0641909+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5005ff6c-bb6a-4dc0-a396-ddffa70fc514">
+    </UnitTestResult>
+    <UnitTestResult executionId="23806706-f3b4-4d81-b06e-02f23eee33e2" testId="067ca797-5077-a8bc-338c-8aeb6d44a0a4" testName="DomainEntities_Have_The_Same_Hashcode_If_They_Are_Not_Transient_And_Have_The_Same_Identifier" computerName="OPP-0351" duration="00:00:00.0009425" startTime="2010-06-30T13:54:42.0641909+01:00" endTime="2010-06-30T13:54:42.0641909+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23806706-f3b4-4d81-b06e-02f23eee33e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="a0f1266c-2c8a-4efd-b2b7-4eeab8eb18bb" testId="0694b641-f0ee-240f-009b-db7e4c15e7cf" testName="DomainEntities_Have_The_Same_Hashcode_If_They_Are_Transient_And_Have_The_Same_Business_Signature" computerName="OPP-0351" duration="00:00:00.0007492" startTime="2010-06-30T13:54:42.0641909+01:00" endTime="2010-06-30T13:54:42.0641909+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0f1266c-2c8a-4efd-b2b7-4eeab8eb18bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="6e5b57a9-c595-4b8d-8957-bf7987e69c9d" testId="af2683a9-3214-b8ba-a000-9e5ed7aeaa58" testName="DomainEntity_Business_Signature_Changes_When_Signature_Property_Values_Change" computerName="OPP-0351" duration="00:00:00.0017767" startTime="2010-06-30T13:54:42.0641909+01:00" endTime="2010-06-30T13:54:42.0641909+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e5b57a9-c595-4b8d-8957-bf7987e69c9d">
+    </UnitTestResult>
+    <UnitTestResult executionId="85571b7a-09c8-4272-bedb-6d3855f61a7d" testId="1920a1d9-6477-aad3-7eab-201430ae59ce" testName="DomainEntity_Business_Signature_Does_Not_Change_When_Non_Signature_Property_Values_Change" computerName="OPP-0351" duration="00:00:00.0005221" startTime="2010-06-30T13:54:42.0641909+01:00" endTime="2010-06-30T13:54:42.0641909+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85571b7a-09c8-4272-bedb-6d3855f61a7d">
+    </UnitTestResult>
+    <UnitTestResult executionId="d7b2fdaf-8efa-49d2-b3a5-45b4f6da0a0e" testId="25b2840f-bb52-8179-e1cb-40b7d374cf61" testName="DomainEntity_Has_Expected_Business_Signature" computerName="OPP-0351" duration="00:00:00.0006056" startTime="2010-06-30T13:54:42.0641909+01:00" endTime="2010-06-30T13:54:42.0641909+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7b2fdaf-8efa-49d2-b3a5-45b4f6da0a0e">
+    </UnitTestResult>
+    <UnitTestResult executionId="4648d10e-e025-40b8-9879-d9388a4e56bd" testId="0a9e09dd-eac6-0095-add5-f1bbcdef9a2a" testName="DomainEntity_Has_Expected_Business_Signature_Properties" computerName="OPP-0351" duration="00:00:00.0028771" startTime="2010-06-30T13:54:42.0798162+01:00" endTime="2010-06-30T13:54:42.0798162+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4648d10e-e025-40b8-9879-d9388a4e56bd">
+    </UnitTestResult>
+    <UnitTestResult executionId="6cdfa6ec-cfc1-4984-b8ac-4966e9272cc0" testId="bb1dc70f-d7e6-a67c-20d4-985035c8616c" testName="DomainEntity_Is_Initialised_With_Expected_Values" computerName="OPP-0351" duration="00:00:00.0005201" startTime="2010-06-30T13:54:42.0798162+01:00" endTime="2010-06-30T13:54:42.0798162+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6cdfa6ec-cfc1-4984-b8ac-4966e9272cc0">
+    </UnitTestResult>
+    <UnitTestResult executionId="c0c72e90-7d97-4d16-bdc2-4855c5ab1df6" testId="d809f0ea-5025-ef8f-d0d6-d1e4843c4e76" testName="DomainEntity_With_Default_Value_Identifier_Is_Transient" computerName="OPP-0351" duration="00:00:00.0016479" startTime="2010-06-30T13:54:42.0798162+01:00" endTime="2010-06-30T13:54:42.0798162+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0c72e90-7d97-4d16-bdc2-4855c5ab1df6">
+    </UnitTestResult>
+    <UnitTestResult executionId="517f340e-ab7b-44bd-91e0-91d552bc9c93" testId="c0d094d6-c4be-3efa-5c36-6df1d3e85b64" testName="DomainEntity_With_Non_Default_Identifier_Is_Not_Transient" computerName="OPP-0351" duration="00:00:00.0008931" startTime="2010-06-30T13:54:42.0798162+01:00" endTime="2010-06-30T13:54:42.0798162+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="517f340e-ab7b-44bd-91e0-91d552bc9c93">
+    </UnitTestResult>
+  </Results>
+</TestRun>
