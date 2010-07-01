@@ -1,5 +1,0 @@
-C:\Projects\Groove\Groove.Domain\obj\Debug\ResolveAssemblyReference.cache
-C:\Projects\Groove\Groove.Domain\bin\Debug\Groove.Domain.dll
-C:\Projects\Groove\Groove.Domain\bin\Debug\Groove.Domain.pdb
-C:\Projects\Groove\Groove.Domain\obj\Debug\Groove.Domain.dll
-C:\Projects\Groove\Groove.Domain\obj\Debug\Groove.Domain.pdb
