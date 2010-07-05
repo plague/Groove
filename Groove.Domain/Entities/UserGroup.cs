@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Groove.Domain.Attributes;
+using Utilities.Domain;
 
 namespace Groove.Domain.Entities
 {
-	public class UserGroup : DomainEntity<Int32>
+	public class UserGroup : DomainEntity
 	{
 		#region Constructors
 		/// <summary>

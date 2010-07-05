@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities.NHibernate", "Utilities.NHibernate\Utilities.NHibernate.csproj", "{162FF595-5555-4990-8E3A-E844503A995C}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Groove.vsmdi
@@ -52,6 +54,10 @@ Global
 		{4606263C-442F-4038-9E43-795C6D6790F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4606263C-442F-4038-9E43-795C6D6790F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4606263C-442F-4038-9E43-795C6D6790F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162FF595-5555-4990-8E3A-E844503A995C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162FF595-5555-4990-8E3A-E844503A995C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162FF595-5555-4990-8E3A-E844503A995C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162FF595-5555-4990-8E3A-E844503A995C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,5 +67,6 @@ Global
 		{F65F6FB8-1C91-4213-839A-7AC1A0B5870D} = {DD2F034B-1C6E-4C8B-A11C-C63DE1993688}
 		{4606263C-442F-4038-9E43-795C6D6790F1} = {DD2F034B-1C6E-4C8B-A11C-C63DE1993688}
 		{41E7857D-FBCD-4782-8623-B2087644C0AF} = {4372CC0F-43FA-428E-8F71-F60D694C9096}
+		{162FF595-5555-4990-8E3A-E844503A995C} = {4372CC0F-43FA-428E-8F71-F60D694C9096}
 	EndGlobalSection
 EndGlobal

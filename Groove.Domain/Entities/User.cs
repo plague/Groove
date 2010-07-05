@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Groove.Domain.Attributes;
+using Utilities.Domain;
 
 namespace Groove.Domain.Entities
 {
 	[Serializable]
-	public class User : DomainEntity<Int32>
+	public class User : DomainEntity
 	{
 		#region Constructors
 		/// <summary>

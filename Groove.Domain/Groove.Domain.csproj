@@ -47,14 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attributes\DomainSignatureAttribute.cs" />
-    <Compile Include="Entities\DomainEntity.cs" />
     <Compile Include="Entities\ContactDetail.cs" />
     <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\CustomerUser.cs" />
     <Compile Include="Entities\CustomerUserGroup.cs" />
     <Compile Include="Entities\Department.cs" />
-    <Compile Include="Entities\DomainEntityIdentityComparer.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Entities\UserGroup.cs" />
     <Compile Include="Entities\UserGroupRole.cs" />
